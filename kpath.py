@@ -2,7 +2,7 @@ from pymatgen.core import Structure
 from pymatgen.io.vasp.inputs import Kpoints
 from numpy import *
 
-def kpath():
+def kpath(p):
   def get_kpath(sp_kpts, kpt_den, lat_mat):
     kpts = zeros((0,3))
     lens = zeros(0)

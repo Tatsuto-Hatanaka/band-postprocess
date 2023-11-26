@@ -1,28 +1,36 @@
 # band-postprocess
-post-processing of the band structure based on the tight-binding model from Wannier90
 
+## Overview
 
-### What
-- Decomposing <br>
-Decompose the band structure into contributions from each orbital (orbital-wise).
+Post-processing of the band structure of the tight-binding model obtained from Wannier90 and VASP.
 
-- De-hybridization <br>
-Calculate the band structure when ignoring hopping terms between some atoms (atom-wise). Ignoring means setting the hopping terms in the hamiltonian to 0; we set $\langle w_{l}(0)|H|w_{m}(R)\rangle=0$.
+## What
 
-- Projected density of state (PDOS) <br>
-Calculate PDOS of each orbital from the band structure.
+- Decomposing
+    Decompose the band structure into contributions from each orbital (orbital-wise).
 
+- De-hybridization
+    Calculate the band structure when ignoring hopping terms between some atoms (atom-wise). Ignoring means setting the hopping terms in the hamiltonian to 0; we set $\langle w_{l}(0)|H|w_{m}(R)\rangle=0$.
 
-### Usage
-1.  Prepare `SEEDNAME_tb.dat` from Wannier90, `POSCAR`, and `KPOINTS` from VASP in the same directory
-2.  Edit some parameters in `parameters.py`
-3.  Run the code below
-```
+- Projected density of state (PDOS)
+    Calculate PDOS of each orbital from the band structure.
+
+## Usage
+
+1. Prepare `SEEDNAME_tb.dat` from Wannier90, `POSCAR`, and `KPOINTS` from VASP in the same directory
+2. Edit some parameters in `parameters.py`
+3. Run the code below
+
+```python
 python main.py
 ```
 
-### Note
+## Note
 
+## Author
 
-### Author
 Tatsuto Hatanaka
+
+## License
+
+MIT license
