@@ -1,6 +1,6 @@
 import os, logging
 
-def make_logger(p, str_name):
+def make_logger(p, name_str):
     """ make logging.getLogger
 
     Args:
@@ -10,9 +10,10 @@ def make_logger(p, str_name):
     Returns:
         logger (instance): Instance of 'logging.logger'
     """
-    logger = logging.getLogger(str_name)
+    logger = logging.getLogger(name_str)
     logger.setLevel(logging.DEBUG)
-    logfile_path = os.path.join(p.log_dir,"log_"+str_name+".dat")
+    logfile_path = os.path.join(p.log_dir,"log_"+name_str+".dat")
+    if os.path.isfile(p.log_dir+"/log_"+name_str+".dat"): os.system("rm "+p.log_dir+"/log_"+name_str+".dat")
     handler = logging.FileHandler(logfile_path)
     format = '%(asctime)s [%(levelname)s] %(name)s, lines %(lineno)d : %(message)s'
     date_format = '%Y-%m-%d %H:%M:%S'

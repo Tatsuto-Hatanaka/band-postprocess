@@ -1,4 +1,13 @@
-2023-11-27 00:08:59 [INFO] hamiltonian, lines 143 : time of r_to_k : 9.608268737792969e-05
-2023-11-27 00:08:59 [INFO] hamiltonian, lines 163 : time of diagonalization : 0.0002200603485107422
-2023-11-27 00:08:59 [INFO] hamiltonian, lines 143 : time of r_to_k : 6.008148193359375e-05
-2023-11-27 00:08:59 [INFO] hamiltonian, lines 163 : time of diagonalization : 0.00013399124145507812
+2023-11-27 22:52:10 [INFO] hamiltonian, lines 177 : time of r_to_k = 0.00011491775512695312
+2023-11-27 22:52:10 [INFO] hamiltonian, lines 197 : time of diagonalization = 0.00022792816162109375
+2023-11-27 22:52:10 [INFO] hamiltonian, lines 227 : time of calc_pdos = 0.06053495407104492
+2023-11-27 22:52:10 [INFO] hamiltonian, lines 215 : time of calc_band = 0.0003139972686767578
+2023-11-27 22:52:10 [INFO] hamiltonian, lines 243 : time of dehybridization = 4.38690185546875e-05
+2023-11-27 22:52:10 [INFO] hamiltonian, lines 177 : time of r_to_k = 6.604194641113281e-05
+2023-11-27 22:52:10 [INFO] hamiltonian, lines 197 : time of diagonalization = 0.0001437664031982422
+2023-11-27 22:52:10 [INFO] hamiltonian, lines 227 : time of calc_pdos = 0.06287789344787598
+2023-11-27 22:52:10 [INFO] hamiltonian, lines 215 : time of calc_band = 0.0001590251922607422
+2023-11-27 22:52:10 [INFO] hamiltonian, lines 303 : time of out_data_pdos = 0.008360862731933594
+2023-11-27 22:52:10 [INFO] hamiltonian, lines 337 : time of out_data_band = 0.008931159973144531
+2023-11-27 22:52:11 [INFO] hamiltonian, lines 366 : time of save_figure_pdos = 0.4230170249938965
+2023-11-27 22:52:11 [INFO] hamiltonian, lines 417 : time of save_figure_band = 0.29101109504699707
