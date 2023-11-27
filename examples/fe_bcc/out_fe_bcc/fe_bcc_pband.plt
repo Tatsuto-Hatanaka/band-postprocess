@@ -36,6 +36,6 @@ set style fill transparent solid 0.2 noborder
 set output "figures/fe_bcc_pbands_up.pdf"
 plot "fe_bcc_bands_up.dat" u 1:2 w l lw 1.2 lc rgb "black" notitle,\
     "fe_bcc_bands_up.dat" u 1:2:($3/50) w circles lc rgb "red" title "sp3d2",\
-    "fe_bcc_bands_up.dat" u 1:2:($4/50) w circles lc rgb "blue" title "dxy",\
-    "fe_bcc_bands_up.dat" u 1:2:($5/50) w circles lc rgb "green" title "dxz",\
-    "fe_bcc_bands_up.dat" u 1:2:($6/50) w circles lc rgb "gold" title "dyz",\
+    "fe_bcc_bands_up.dat" u 1:2:($4/50) w circles lc rgb "blue" title "d_{xz}",\
+    "fe_bcc_bands_up.dat" u 1:2:($5/50) w circles lc rgb "green" title "d_{yz}",\
+    "fe_bcc_bands_up.dat" u 1:2:($6/50) w circles lc rgb "gold" title "d_{xy}",\
