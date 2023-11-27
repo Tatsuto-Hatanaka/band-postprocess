@@ -113,7 +113,7 @@ class parameters:
             self.e_min = -10
             self.e_max = 10
             self.e_num = 501
-            self.orbital_types = [0] + [1]*3 + [2]*5 # s,p,d
+            self.orbital_types = [0]*6 + [1,2,3] # sp3d2,dxy,dxz,dyz
             self.decompose = True
             self.dehybridize = False
             # [[[a1,a2...], [b1,b2...]],...]
